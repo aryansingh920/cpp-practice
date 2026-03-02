@@ -1,6 +1,4 @@
-#include <iostream>
-
-using namespace std;
+#include "DSA_Master.h"
 
 int main(){
     int a, b;

@@ -1,7 +1,4 @@
-#include <iostream>
-#include <memory> // 1. Must include memory for smart pointers
-
-using namespace std;
+#include "DSA_Master.h"
 
 // Notice the return type: unique_ptr<int>
 unique_ptr<int> smartHeapPrimitive()
