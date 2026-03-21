@@ -6,16 +6,23 @@ int main(){
         cout<<x<<" , ";
     }
     std::cout << std::endl;
-    cout << a.begin() << std::endl;
+    cout << *a.begin() << std::endl;
 
-    vector<int> v = {1, 2, 3, 4, 5};
-    v.push_back(28);
-    // sort(v.begin(), v.end());
-    sort(v.rbegin(), v.rend());
+    // vector<int> v = {1, 2, 3, 4, 5};
+    // v.push_back(28);
+    // // sort(v.begin(), v.end());
+    // sort(v.rbegin(), v.rend());
 
-    for (int y : v)
-    {
-        cout << y << "," << endl;
-    }
+    // for (int y : v)
+    // {
+    //     cout << y << "," << endl;
+    // }
+
+    // int i = 0;
+    // while (i < v.size())
+    // {
+    //     std::cout << v[i];
+    //     i++;
+    // }
     return 0;
 }
