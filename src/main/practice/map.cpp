@@ -11,5 +11,12 @@ int main(){
     { // Modern C++ structured binding
         cout << name << " has a score of " << score << endl;
     }
+
+    // for (const pair<const string,int> &entry : hmap)
+    // {
+    //     // .first is the key ("Alice")
+    //     // .second is the value (23)
+    //     std::cout << entry.first << " has a score of " << entry.second << std::endl;
+    // }
     return 0;
 }
